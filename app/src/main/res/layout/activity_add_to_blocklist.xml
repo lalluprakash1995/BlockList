@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddToBlocklistActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add BLackList"
+        android:layout_marginTop="9dp"
+        android:textSize="19dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:inputType="numberSigned"
+        android:id="@+id/countryeditxt"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:hint="Country Code"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:inputType="numberSigned"
+        android:id="@+id/phonenumeditxt"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:hint="PhoneNumber"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:id="@+id/submitbtn"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cancel"
+            android:id="@+id/cancelbtn"/>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="contacts"
+        android:onClick="selectFromContact"/>
+
+</LinearLayout>

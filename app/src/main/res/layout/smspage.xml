@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sent items"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="169dp"
+        android:id="@+id/viewmsg_btn"
+        android:textColor="#fff"
+        android:background="@drawable/button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Message"
+        android:layout_marginTop="31dp"
+        android:textColor="#fff"
+        android:background="@drawable/button"
+        android:id="@+id/sndmsg_btn"
+        android:layout_below="@+id/viewmsg_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inbox"
+        android:layout_marginTop="31dp"
+        android:textColor="#fff"
+        android:background="@drawable/button"
+        android:id="@+id/Inbox_btn"
+        android:layout_below="@+id/sndmsg_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
